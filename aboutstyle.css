@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(aboutback.png);
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    padding: 10px 10%;
+
+}
+
+.logo{
+    width: 250px;   
+    margin-left: -90px;
+    margin-right: 200px;
+}
+
+nav ul{
+    margin-left: 50px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s ;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+
+}
+
+
+
+/*=============================CONTENT SECTION =====================*/
+
+.about-paragraphe{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+span{
+    color: #ff004f;
+}
+
+
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.formtxt{
+    color: #fff;
+    margin-top: 3%;
+}
+
+.formlist{
+    margin-top: 6%;
+}
+
+.hide { display: none; opacity: 0; }.show { display: block; opacity: 1; } #Anutrickz_translateBTN { position:absolute;top:17px;right:70px; z-index: 99; }#Anutrickz_translateBTN svg{width:24px;height:24px} #ATLang_list { width: 10rem; right: 0px; box-shadow: 0 0 15px rgb(0 0 0 / 7%); border-radius: 0.5rem; position: absolute; z-index: 9; background: #fff; top: 100%; color: #000;} #ATLang_list li { list-style: none; line-height: 1.5rem; font-size: .875rem; font-weight: 600;cursor:pointer; padding-left: 0.75rem; padding-right: 0.75rem; padding-top: 0.25rem; padding-bottom: 0.25rem;} #ATLang_list ul{margin:0 auto} #Anutrickz_translateBTN.hover #ATLang_list{display:block}.language-active {color: green;}.language-list{cursor:pointer;margin:3px;align-items:center}#goog-gt-tt,.goog-te-banner-frame{display:none!important}
+
+.ytblink:hover{
+    color: #ff004f;
+}
+
+.ytblink{
+    color: #fff;
+}
+
+.activetab{
+    color: #ff004f;
+    font-size: x-large;
+}
